@@ -4,3 +4,17 @@ grid-container{
 	grid-template-columns: auto;
 	grid-gap: 20px
 }
+
+.grid-container{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 20px;
+	grid-auto-rows: auto;
+	grid-template-rows: none;
+	padding-left: 150px;
+}
+
+#idontknow{
+	grid-column:1 ;
+	grid-row:2;
+}
